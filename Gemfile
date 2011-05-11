@@ -7,7 +7,7 @@ gem 'formtastic'
 gem 'lesstile'
 gem 'pg'
 gem 'rack-openid', :require => 'rack/openid'
-gem 'rails', '3.0.4'
+gem 'rails', '3.0.7'
 gem 'ruby-openid', :require => 'openid'
 gem 'will_paginate', '= 3.0.pre2'
 
