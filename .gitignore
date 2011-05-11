@@ -5,6 +5,7 @@
 .bundle
 .rvmrc
 config/database.yml
+config/enki.yml
 db/schema.rb
 log
 log/**/*
