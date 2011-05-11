@@ -15,7 +15,7 @@ describe Tagging do
     @taggable.destroy
     Tag.where(:taggings_count => 0).count.should == 0
   end
-  
+
   it 'does not destroy tags if they are still in use' do
     another_taggable = Post.create!(:title => 'My Post', :body => 'body', :tag_list => 'oblong, square')
     @taggable.destroy

@@ -1,6 +1,6 @@
 module CoreExtensions
   module String
-  
+
     def slugorize
       result = self.downcase
       result.gsub!(/&([0-9a-z#])+;/, '')  # Ditch Entities
